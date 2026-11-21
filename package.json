@@ -1,0 +1,28 @@
+{
+  "name": "splash-rush-io",
+  "version": "3.1.0",
+  "private": true,
+  "description": "Flume Frenzy.io: corrida 3D de tobogã num parque aquático contra bichinhos rivais (bots locais). Poki, CrazyGames, californiagames.io e Y8.",
+  "type": "module",
+  "config": {
+    "porta": 5500
+  },
+  "kit": {
+    "trocas": {},
+    "ids": {
+      "y8": {
+        "appId": "6b01061257cef42fd62370b7",
+        "gameId": "294587"
+      }
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "servir": "node tools/servir.mjs",
+    "lan": "node tools/servir.mjs --lan",
+    "empacotar": "npm test && node tools/empacotar.mjs --alvo=todos",
+    "verificar": "node tools/verificar-build.mjs --alvo=todos",
+    "grok": "node tools/grok.mjs",
+    "sprite": "node tools/sprite.mjs"
+  }
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Flume Frenzy.io</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="src/ui/kit.css">
+<link rel="stylesheet" href="src/ui/jogo.css">
+<!-- SDK do portal (a unica tag externa; o tools/empacotar.mjs troca a linha de baixo por alvo). -->
+<script src="/sdk/v1/plataforma-sdk.js"></script>
+<script type="importmap">{ "imports": { "three": "./vendor/three/three.module.js" } }</script>
+</head>
+<body>
+<div id="carregando" role="status"><div class="caixa-carga"><div class="logo"><span>Flume</span> <b>Frenzy</b><small>.io</small></div><div class="barra"><i></i></div></div></div>
+<div id="palco"><canvas id="tela"></canvas></div>
+<div id="camada">
+  <div id="nomes" aria-hidden="true"></div>
+  <div id="hud">
+    <div id="lugarHud" class="pilula grande"><span id="lugarN">1</span><small id="lugarDe">/12</small></div>
+    <div id="progresso" aria-hidden="true"><div class="trilho"><i id="progJog"></i><b id="progLider"></b></div></div>
+    <div class="direita">
+      <div class="pilula"><img src="src/arte/icones/icone-01.webp" alt="" class="ico"><span id="moedasN">0</span></div>
+      <button id="btPausa" class="botao-icone" type="button" data-t-aria="pausa">❚❚</button>
+    </div>
+  </div>
+  <div id="selos">
+    <div id="selPresente" class="selo" hidden><img src="src/arte/icones/icone-03.webp" alt="" class="ico"><span data-t="hoje">×2</span></div>
+    <div id="selRodada" class="selo"></div>
+    <ol id="placar" aria-hidden="true"><li hidden></li><li hidden></li><li hidden></li><li hidden></li></ol>
+    <div id="derrubados" class="selo derrubados" hidden><img src="src/arte/icones/icone-06.webp" alt="" class="ico"><b id="derrubadosN">0</b></div>
+  </div>
+  <div id="aviso" aria-live="polite"></div>
+  <div id="dica"></div>
+  <div id="manobras" aria-live="polite"></div>
+  <div id="manBots" aria-hidden="true"></div>
+  <div id="cartao" class="cartao" hidden>
+    <div class="cartao-topo"><img id="cartaoCoroa" src="src/arte/icones/icone-02.webp" alt="" hidden><b id="cartaoLugar"></b></div>
+    <div id="cartaoSub"></div>
+    <div class="cartao-moedas"><img src="src/arte/icones/icone-01.webp" alt="" class="ico"><b id="cartaoMoedas">+0</b><span id="cartaoPresente" hidden><img src="src/arte/icones/icone-03.webp" alt="" class="ico">×2</span></div>
+    <div id="cartaoEstilo" hidden><span id="cartaoEstiloT" data-t="manobras">Tricks</span> <b id="cartaoEstiloN">+0</b></div>
+    <div class="cartao-colecao" id="cartaoColecao">
+      <div class="prox-img"><img id="proxImg" src="" alt=""></div>
+      <div class="prox-texto"><small data-t="proximo">Next:</small> <b id="proxNome"></b><div class="barra-col"><i id="proxBarra"></i></div><small id="proxNum"></small></div>
+    </div>
+    <div class="cartao-botoes">
+      <button id="btProxima" class="botao forte" type="button"><span data-t="proxima">Next race</span><i id="autoAnel"></i></button>
+      <button id="btDobrar" class="botao" type="button" hidden>Coins ×2</button>
+    </div>
+    <button id="btColecaoCartao" class="botao leve" type="button" data-t="colecao">Collection</button>
+  </div>
+</div>
+<div id="menu" class="camada-ui" hidden>
+  <div class="painel" role="dialog" aria-modal="true" aria-labelledby="menuTitulo">
+    <h2 id="menuTitulo" data-t="pausa">Paused</h2>
+    <button id="btContinuar" class="botao forte" type="button" data-t="continuar">Continue</button>
+    <button id="btBonus" class="botao" type="button" hidden>Bonus</button>
+    <button id="btColecaoMenu" class="botao" type="button" data-t="colecao">Collection</button>
+    <button id="btSom" class="botao" type="button" aria-pressed="true" data-t="som">Sound</button>
+  </div>
+</div>
+<div id="colecao" class="camada-ui" hidden>
+  <div class="painel largo" role="dialog" aria-modal="true" aria-labelledby="colTitulo">
+    <h2 id="colTitulo" data-t="colecao">Collection</h2>
+    <div class="abas"><button id="abaPers" class="aba ativa" type="button" data-t="personagens">Critters</button><button id="abaBoias" class="aba" type="button" data-t="boias">Tubes</button></div>
+    <div id="grade" class="grade"></div>
+    <p id="colInfo" class="miudo"></p>
+    <button id="btFecharColecao" class="botao forte" type="button" data-t="fechar">Close</button>
+  </div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

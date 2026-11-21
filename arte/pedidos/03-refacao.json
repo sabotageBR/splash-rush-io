@@ -1,0 +1,85 @@
+[
+ {
+  "id": "pers-a-costas-v2",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg",
+   "arte/bruto/pers-b-costas.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Make a new 3x3 grid in exactly the same format, pose, framing and style as the second image: 9 separate chubby cute cartoon animal characters, each seen from behind (rear view, we see the back of the head, ears and back), sitting upright with both arms resting out to the sides, the bare animal body only, absolutely NO inner tube, NO swim ring, NO float, NO water, evenly spaced, wide empty space between them, each one whole and not touching the others, in this exact order left to right, top to bottom: brown capybara, green frog, brown otter, black toucan with a big orange beak, orange tabby cat, black and white penguin, grey koala, red panda with a ringed tail, yellow duckling. Same character design language as the first image. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "pers-b-esq",
+  "modo": "editar",
+  "imagens": [
+   "arte/bruto/pers-b-costas.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "The same 9 characters in the same 3x3 grid positions and the same style, but now each character is turned 35 degrees so we see it from a rear three-quarter view: we see its back and its left side (left arm, left ear, a bit of the left cheek), still sitting upright with arms out, no inner tube, evenly spaced, wide empty space between them, each one whole and not touching the others. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "icones-v2",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style as the reference image, a 3x3 grid of 9 separate cute game icons, evenly spaced, wide empty space between them, each one whole and not touching the others: shiny gold coin embossed with a simple five-pointed star (no dollar sign, no symbols, no letters), golden crown with gems, gift box with a ribbon, gold trophy cup, yellow star, blue water drop, padlock, round lifebuoy ring, finish flag with a black and white checkered pattern. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "ceu-doces",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg",
+   "arte/bruto/ceu-tropical.jpg"
+  ],
+  "aspecto": "16:9",
+  "prompt": "Same wide panoramic horizon composition as the second image but for a candy land: pastel lilac and pink sky with big fluffy cotton candy clouds, a calm pink strawberry soda sea along the bottom fifth, small distant islands with lollipop trees and gumdrop hills on the horizon, no slide, no characters, nothing in the foreground. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "ceu-gelo",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg",
+   "arte/bruto/ceu-tropical.jpg"
+  ],
+  "aspecto": "16:9",
+  "prompt": "Same wide panoramic horizon composition as the second image but for a frozen winter park: pale blue sky with soft white clouds, a calm deep blue icy sea with small floating ice floes along the bottom fifth, distant snowy mountains and snowy pine islands on the horizon, no slide, no characters, nothing in the foreground. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "thumb",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Square game thumbnail in the same style and world as the reference image: seen from just behind and above, a chubby cartoon capybara on a bright yellow inner tube flies through the air in a big arc off the outer edge of a curving orange half-pipe water slide, water droplets spraying, below it a lower section of the orange slide with rival cartoon animal riders on colorful inner tubes, a big round pool far below, palm islands, deep saturated blue sky with a few white clouds. Bold simple composition: the capybara and the orange slide are big and fill the frame, strong contrast, nothing cut awkwardly. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "capa-16x9",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "16:9",
+  "prompt": "Wide game cover in the same style and world as the reference image: on the right two thirds, seen from behind and above, a chubby cartoon capybara on a bright yellow inner tube races down a giant curving orange half-pipe water slide with rushing turquoise water next to rival animal riders on colorful inner tubes (frog, otter, toucan), one rider flying off a curve toward a lower section; the left third is open bright blue sky with soft clouds and distant palm islands, calm and empty to leave room for a title. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "capa-9x16",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "9:16",
+  "prompt": "Tall vertical game cover in the same style and world as the reference image: in the lower two thirds, seen from behind and above, a chubby cartoon capybara on a bright yellow inner tube races down a giant winding orange half-pipe water slide with rushing turquoise water next to rival animal riders on colorful inner tubes, one rider flying off a curve, the slide snaking down to a round pool, palm islands; the top third is open bright blue sky with soft clouds, calm and empty to leave room for a title. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ }
+]

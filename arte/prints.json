@@ -1,0 +1,54 @@
+[
+  {
+    "nome": "voo-do-atalho",
+    "tamanho": "paisagem",
+    "params": "novo&lang=en&semente=3&fase=1&limpo",
+    "esperar": 1900,
+    "js": "setTimeout(() => __jogo.prepararVoo(), 300)"
+  },
+  {
+    "nome": "manobra-na-rampa",
+    "tamanho": "paisagem",
+    "params": "novo&lang=en&semente=3&fase=4&auto&limpo",
+    "esperar": 4200,
+    "js": "setTimeout(() => __jogo.rampa(), 600)"
+  },
+  {
+    "nome": "pelotao-doces",
+    "tamanho": "paisagem",
+    "params": "novo&lang=en&semente=5&fase=4&auto&limpo",
+    "esperar": 5200
+  },
+  {
+    "nome": "pico-gelado",
+    "tamanho": "retrato",
+    "params": "novo&lang=en&semente=2&fase=7&auto",
+    "esperar": 6500
+  },
+  {
+    "nome": "largada",
+    "tamanho": "retrato",
+    "params": "novo&lang=en&semente=3&fase=2",
+    "esperar": 2500
+  },
+  {
+    "nome": "por-do-sol",
+    "tamanho": "paisagem",
+    "params": "novo&lang=en&semente=4&fase=9&evento=por-do-sol&auto&limpo",
+    "esperar": 4600
+  },
+  {
+    "nome": "chegada",
+    "tamanho": "paisagem",
+    "params": "novo&lang=en&semente=3&fase=1&auto",
+    "esperar": 9800,
+    "js": "setTimeout(() => __jogo.completar(), 1500)"
+  },
+  {
+    "nome": "colecao",
+    "tamanho": "retrato",
+    "params": "novo&lang=en&semente=3&fase=3",
+    "esperar": 2500,
+    "js": "__jogo.darMoedas(900); __jogo.abrirColecao()"
+  }
+]

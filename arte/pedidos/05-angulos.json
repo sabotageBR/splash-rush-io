@@ -1,0 +1,22 @@
+[
+ {
+  "id": "pers-a-esq-v2",
+  "modo": "editar",
+  "imagens": [
+   "arte/bruto/pers-a-costas-v2.jpg",
+   "arte/bruto/pers-b-esq-v2.jpg"
+  ],
+  "prompt": "Redraw the 9 characters of the first image (the same animals, same colors, same order in the 3x3 grid) seen from exactly the same viewing angle as the characters in the second image: a rear three-quarter view from their left side, the head turned so the face points to the right of the picture and we see the left eye and left cheek, but each one SITTING upright and compact with the legs tucked under the body and both arms slightly out, as if sitting inside an inner tube (no tube drawn), evenly spaced, wide empty space between them, each one whole and not touching the others, order: brown capybara, green frog, brown otter, black toucan with orange beak, orange tabby cat, black and white penguin, grey koala, red panda, yellow duckling. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "pers-b-esq-v3",
+  "modo": "editar",
+  "imagens": [
+   "arte/bruto/pers-b-costas.jpg",
+   "arte/bruto/pers-b-esq-v2.jpg"
+  ],
+  "prompt": "Redraw the 9 characters of the first image (the same animals, same colors, same order in the 3x3 grid) seen from exactly the same viewing angle as the characters in the second image: a rear three-quarter view from their left side, the head turned so the face points to the right of the picture and we see the left eye and left cheek, but each one SITTING upright and compact with the legs tucked under the body and both arms slightly out, as if sitting inside an inner tube (no tube drawn), evenly spaced, wide empty space between them, each one whole and not touching the others, order: green sea turtle with a shell, orange and white corgi dog with short legs, grey raccoon, giant panda, orange fox with a white tail tip, white bunny, beige sloth, lion cub with a mane, white polar bear. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ }
+]

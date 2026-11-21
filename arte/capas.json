@@ -1,0 +1,10 @@
+{
+  "titulo": "Flume Frenzy.io",
+  "cor": "#ffd23f",
+  "contorno": "#12405a",
+  "thumb": "arte/escolhida/thumb.jpg",
+  "fundo16x9": "arte/escolhida/capa-16x9.jpg",
+  "fundo9x16": "arte/escolhida/capa-9x16.jpg",
+  "titulo16x9": "alto-esquerda",
+  "titulo9x16": "topo"
+}

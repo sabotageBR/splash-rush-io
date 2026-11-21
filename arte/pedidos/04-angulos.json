@@ -1,0 +1,20 @@
+[
+ {
+  "id": "pers-a-esq",
+  "modo": "editar",
+  "imagens": [
+   "arte/bruto/pers-a-costas-v2.jpg"
+  ],
+  "prompt": "Redraw the same 9 characters in the same 3x3 grid positions, same style and colors, but each one is now rotated 55 degrees to its right: a rear three-quarter view where we see the back AND the full left side of each animal, including the left side of the face, the left eye and the snout or beak pointing to the right of the picture, still sitting upright with arms slightly out, no inner tube, no water, evenly spaced, wide empty space between them, each one whole and not touching the others. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "pers-b-esq-v2",
+  "modo": "editar",
+  "imagens": [
+   "arte/bruto/pers-b-costas.jpg"
+  ],
+  "prompt": "Redraw the same 9 characters in the same 3x3 grid positions, same style and colors, but each one is now rotated 55 degrees to its right: a rear three-quarter view where we see the back AND the full left side of each animal, including the left side of the face, the left eye and the snout or beak pointing to the right of the picture, still sitting upright with arms slightly out, no inner tube, no water, evenly spaced, wide empty space between them, each one whole and not touching the others. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ }
+]

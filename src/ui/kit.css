@@ -1,0 +1,54 @@
+/* [kit multiportal] Base visual comum: tela cheia com safe-area, botoes, painel, mao-guia, festa e botao
+   premiado. Fonte Fredoka (OFL) embutida: nada de Google Fonts nem CDN (regra da Poki). */
+@font-face { font-family: 'Fredoka'; src: url('fontes/fredoka-latin-700-normal.woff2') format('woff2'); font-weight: 700; font-display: block; }
+:root {
+  --kit-fonte: 'Fredoka', 'Arial Rounded MT Bold', system-ui, sans-serif;
+  --kit-tinta: #ffffff;
+  --kit-sombra: #1d1d2b;
+  --kit-forte: #ff8a1f;      /* acao principal (laranja) */
+  --kit-premio: #7a4dff;     /* video premiado: roxo, NUNCA verde (regra da Poki) */
+  --kit-painel: #241a4acc;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; } /* botao escondido nunca reaparece por causa do display de uma classe */
+html, body { margin: 0; height: 100%; overflow: hidden; background: #120c26; color: var(--kit-tinta); font-family: var(--kit-fonte); font-weight: 700;
+  user-select: none; -webkit-user-select: none; touch-action: none; overscroll-behavior: none; }
+#palco { position: fixed; inset: 0; }
+#palco canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+#camada { position: fixed; inset: 0; pointer-events: none; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+#camada > * { pointer-events: auto; }
+#carregando { position: fixed; inset: 0; display: grid; place-items: center; z-index: 50; background: #120c26; transition: opacity .3s; }
+#carregando.saindo { opacity: 0; pointer-events: none; }
+#carregando .barra { width: min(60vw, 320px); height: 12px; border-radius: 6px; background: #ffffff22; overflow: hidden; margin-top: 18px; }
+#carregando .barra i { display: block; height: 100%; width: 0; background: var(--kit-forte); transition: width .15s; }
+
+.botao { font: inherit; font-size: 20px; color: #fff; border: 0; border-radius: 16px; padding: 14px 22px; min-width: 200px; cursor: pointer;
+  background: #ffffff26; box-shadow: 0 4px 0 #0005; text-shadow: 0 2px 0 #0004; }
+.botao:active { transform: translateY(2px); box-shadow: 0 2px 0 #0005; }
+.botao.forte { background: var(--kit-forte); }
+.botao.kit-premio { background: var(--kit-premio); display: inline-flex; align-items: center; justify-content: center; gap: 10px; }
+.kit-premio-icone { font-size: 1.1em; }
+.botao-icone { font: inherit; width: 52px; height: 52px; border-radius: 50%; border: 0; background: #0006; color: #fff; font-size: 24px; cursor: pointer; }
+
+.camada-ui { position: fixed; inset: 0; display: grid; place-items: center; background: #0008; z-index: 30; }
+.camada-ui[hidden] { display: none; }
+.painel { background: var(--kit-painel); backdrop-filter: blur(6px); border-radius: 24px; padding: 24px; display: grid; gap: 12px; justify-items: stretch;
+  min-width: min(86vw, 320px); text-align: center; box-shadow: 0 10px 40px #0008; }
+.painel h2 { margin: 0 0 6px; font-size: 30px; }
+.miudo { font-size: 14px; opacity: .8; margin: 0; }
+
+.kit-mao { position: absolute; left: 0; top: 0; width: 64px; height: 64px; z-index: 20; pointer-events: none;
+  transform: translate(calc(var(--x0) - 18px), calc(var(--y0) - 6px)); animation: kit-toque 1.1s ease-in-out infinite; filter: drop-shadow(0 4px 4px #0006); }
+.kit-mao.arrasto { animation: kit-arrasto 1.6s ease-in-out infinite; }
+.kit-mao[hidden] { display: none; }
+@keyframes kit-toque { 0%, 100% { transform: translate(calc(var(--x0) - 18px), calc(var(--y0) - 6px)) scale(1); } 50% { transform: translate(calc(var(--x0) - 18px), calc(var(--y0) + 4px)) scale(.88); } }
+@keyframes kit-arrasto { 0%, 15% { transform: translate(calc(var(--x0) - 18px), calc(var(--y0) - 6px)); opacity: 1; } 75% { transform: translate(calc(var(--x1) - 18px), calc(var(--y1) - 6px)); opacity: 1; } 100% { transform: translate(calc(var(--x1) - 18px), calc(var(--y1) - 6px)); opacity: 0; } }
+
+.kit-festa { position: absolute; left: 50%; top: 38%; z-index: 25; pointer-events: none; display: grid; justify-items: center; gap: 4px;
+  transform: translate(-50%, -50%); animation: kit-festa var(--ms) ease-out forwards; }
+.kit-festa b { font-size: clamp(34px, 8vmin, 72px); text-shadow: 0 4px 0 var(--kit-sombra), 0 8px 20px #0008; white-space: nowrap; }
+.kit-festa small { font-size: clamp(18px, 3.5vmin, 28px); text-shadow: 0 3px 0 var(--kit-sombra); }
+.kit-festa i { position: absolute; left: 50%; top: 50%; width: 10px; height: 16px; border-radius: 3px; background: hsl(var(--h) 90% 60%);
+  animation: kit-confete var(--ms) cubic-bezier(.2, .8, .3, 1) forwards; }
+@keyframes kit-festa { 0% { transform: translate(-50%, -50%) scale(.4); opacity: 0; } 12% { transform: translate(-50%, -50%) scale(1.12); opacity: 1; } 22% { transform: translate(-50%, -50%) scale(1); } 85% { opacity: 1; } 100% { transform: translate(-50%, -60%) scale(1); opacity: 0; } }
+@keyframes kit-confete { 0% { transform: rotate(var(--a)) translateY(0) rotate(0); opacity: 1; } 100% { transform: rotate(var(--a)) translateY(-28vmin) rotate(540deg); opacity: 0; } }

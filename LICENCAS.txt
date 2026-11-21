@@ -1,0 +1,15 @@
+Flume Frenzy.io (splash-rush-io) - licencas e origem do que vai no build
+=======================================================================
+
+Codigo: do estudio (Nettools), a partir do kit multiportal (jogos/distribuicao/kit).
+Sons: sintetizados na hora com WebAudio (src/som/); nao ha arquivos de audio.
+Arte do jogo: gerada com o Grok Imagine (xAI) a partir de texto e da arte-chave do proprio jogo, depois recortada,
+reduzida e ajustada (tools/sprite.mjs, tools/processar-arte.mjs). Prompts, datas e sessoes em docs/autoria.md. Os
+brutos ficam em arte/bruto/ (fora do build). Tobogan, lagoa, ilhas e efeitos sao gerados no codigo (three.js).
+
+three.js (MIT) - vendor/three/
+Copyright 2010-2026 Three.js Authors
+
+Fredoka (SIL Open Font License 1.1) - src/ui/fontes/fredoka-latin-700-normal.woff2
+Copyright 2016 The Fredoka Project Authors (https://github.com/hafontia/Fredoka-One)
+Licenca completa: https://openfontlicense.org

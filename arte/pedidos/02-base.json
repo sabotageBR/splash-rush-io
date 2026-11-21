@@ -1,0 +1,122 @@
+[
+ {
+  "id": "pers-a-costas",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style and character design language as the reference image, a 3x3 grid of 9 separate chubby cute cartoon animal characters, each seen from behind (rear view, we see the back of the head, ears and back, slightly from above), sitting upright with both arms resting out to the sides as if riding an inner tube, but with no inner tube and no water, evenly spaced, wide empty space between them, each one whole and not touching the others, in this order left to right, top to bottom: brown capybara, green frog, brown otter, black toucan with a big orange beak, orange tabby cat, black and white penguin, grey koala, red panda with a ringed tail, yellow duckling. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "pers-b-costas",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style and character design language as the reference image, a 3x3 grid of 9 separate chubby cute cartoon animal characters, each seen from behind (rear view, we see the back of the head, ears and back, slightly from above), sitting upright with both arms resting out to the sides as if riding an inner tube, but with no inner tube and no water, evenly spaced, wide empty space between them, each one whole and not touching the others, in this order left to right, top to bottom: green sea turtle with a shell, corgi dog, grey raccoon with a masked face and ringed tail, black and white giant panda, orange fox with a white tail tip, white bunny with long ears, beige sloth, golden lion cub with a small mane, white polar bear. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "boias",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style as the inner tubes in the reference image, a 3x3 grid of 9 separate empty round inflatable swim rings (inner tubes), each seen from behind and above at a 35 degree angle so the hole in the middle is visible as an oval, glossy plastic with a soft highlight, evenly spaced, wide empty space between them, each one whole and not touching the others, in this order: bright yellow, pink, royal blue, orange, red and white stripes, purple, chocolate donut with pastel sprinkles, turquoise with white polka dots, navy and white sailor stripes. Isolated on a perfectly flat solid pure green (#00FF00) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "props-tropical",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style as the reference image, a 3x3 grid of 9 separate tropical water park scenery props, each standing upright and seen from the front at eye level, evenly spaced, wide empty space between them, each one whole and not touching the others: tall curved coconut palm tree, double palm tree with two trunks, round leafy tropical bush with red hibiscus flowers, big mossy grey rock, beach umbrella with orange and white stripes, small thatched tiki hut on stilts, wooden lifeguard chair, cluster of tall green ferns, little striped lighthouse. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "props-doces",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style as the reference image, a 3x3 grid of 9 separate candy land scenery props for a sweet themed water park, each standing upright and seen from the front at eye level, evenly spaced, wide empty space between them, each one whole and not touching the others: giant swirl lollipop tree, giant red and white candy cane, big orange gumdrop, giant cupcake with frosting, giant ice cream cone, cotton candy tree with a fluffy blue crown, giant glazed donut standing on its edge, stack of colorful macarons, giant wrapped candy. Isolated on a perfectly flat solid pure green (#00FF00) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "props-gelo",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style as the reference image, a 3x3 grid of 9 separate icy winter scenery props for a frozen water park, each standing upright and seen from the front at eye level, evenly spaced, wide empty space between them, each one whole and not touching the others: snowy pine tree, cluster of glowing blue ice crystals, friendly snowman with a scarf, small igloo, icy blue rock with snow on top, small floating iceberg, frosty round bush, tall snowy fir tree, ice arch. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "tex-agua",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using the colors of the water in the reference image, a seamless top-down texture of a calm turquoise tropical lagoon surface seen straight from above, gentle bright caustic light patterns and small soft wave highlights, uniform all over, no objects, no horizon, no shore, no perspective. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "tex-correnteza",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using the colors of the water in the reference image, a seamless top-down texture of fast flowing clear turquoise water rushing in one direction (from top to bottom), long white foam streaks and bubbles stretched vertically, uniform all over, no objects, no edges, no perspective. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "tex-areia",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using the colors of the reference image, a seamless top-down texture of warm golden beach sand seen straight from above, soft ripples and a few tiny pebbles and shells, uniform all over, no objects, no horizon, no perspective. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "tex-calha",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using the orange of the water slide in the reference image, a seamless texture of glossy coral orange fiberglass plastic surface seen straight on, subtle soft vertical light streaks and faint seam lines, uniform all over, no objects, no perspective. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "ceu-tropical",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "16:9",
+  "prompt": "Using exactly the same art style and colors as the reference image, a wide panoramic horizon background: clear blue sky with big puffy white cartoon clouds, a calm turquoise sea along the bottom fifth, small distant palm-covered islands and soft hazy mountains on the horizon, no slide, no characters, no pool, nothing in the foreground. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ },
+ {
+  "id": "icones",
+  "modo": "editar",
+  "imagens": [
+   "arte/escolhida/chave.jpg"
+  ],
+  "aspecto": "1:1",
+  "prompt": "Using exactly the same art style as the reference image, a 3x3 grid of 9 separate cute game icons, evenly spaced, wide empty space between them, each one whole and not touching the others: shiny gold coin, golden crown with gems, gift box with a ribbon, gold trophy cup, yellow star, blue water drop, padlock, round lifebuoy ring, finish flag with a checkered pattern. Isolated on a perfectly flat solid magenta (#FF00FF) background, no shadow, no gradient, no ground, no text. Art style: polished stylized 3D cartoon mobile game render, soft toy-like rounded shapes, clean cel shading with two tones per color, thin dark teal outline on characters, saturated tropical palette of turquoise water, sunny yellow, coral orange, leaf green and white foam, bright noon sunlight from the upper left with soft cool cyan shadows, readable at small size, no text, no letters, no numbers, no logos, no watermark, no UI.",
+  "pular": true
+ }
+]
